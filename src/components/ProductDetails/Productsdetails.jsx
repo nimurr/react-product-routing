@@ -11,7 +11,7 @@ export default function Productsdetails() {
                 <h3 className="text-2xl ">{details.brand}</h3>
                 <h2 className="text-xl mt-2">${details.price}</h2>
             </div>
-            <NavLink className='py-2 mt-4 px-4 bg-blue-600 block w-32 mx-auto text-white font-semibold' to='/product'>Go Home </NavLink>
+            <NavLink className='py-2 mt-4 px-4 bg-blue-600 block w-32 mx-auto text-white font-semibold' to='/'>Go Home </NavLink>
         </div>
     )
 }
